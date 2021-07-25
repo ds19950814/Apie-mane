@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#b92b27, #1565C0);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 1000px;
+}
+/*Bendras viso puslapio div*/
+
+.Content {
+
+}
+
+/*Top div'as*/
+
+.Top {
+
+  height: 70px;
+  width: 100%;
+}
+.Header1 {
+  text-align: center;
+  width: 100%;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  font-size: 25px;
+
+}
+
+.Nuotrauka {
+  height: 500px;
+
+}
+/* Top1 (tekstas)*/
+.Top1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 100px;
+}
+
+/* Top2 (tekstas)*/
+.Top2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 25px;
+}
+
+/*Nuotraukos pozicionavimas*/
+
+.Nuotrauka img {
+
+  position:absolute;
+  top: -450px;
+  border-style: double;
+  border-color: white;
+}
